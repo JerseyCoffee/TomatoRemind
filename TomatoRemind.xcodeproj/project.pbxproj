@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		60E1A8CE22F6D5A500BFFF1B /* JSDBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 60E1A8A122F6D5A500BFFF1B /* JSDBaseModel.m */; };
+		60E1A8CF22F6D5A500BFFF1B /* JSDBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 60E1A8A422F6D5A500BFFF1B /* JSDBaseView.m */; };
+		60E1A8D022F6D5A500BFFF1B /* JSDBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60E1A8A722F6D5A500BFFF1B /* JSDBaseViewController.m */; };
+		60E1A8D122F6D5A500BFFF1B /* JSDBaseCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60E1A8A922F6D5A500BFFF1B /* JSDBaseCollectionViewController.m */; };
+		60E1A8D222F6D5A500BFFF1B /* JSDBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60E1A8AC22F6D5A500BFFF1B /* JSDBaseNavigationController.m */; };
+		60E1A8D322F6D5A500BFFF1B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 60E1A8AF22F6D5A500BFFF1B /* AppDelegate.m */; };
+		60E1A8D422F6D5A500BFFF1B /* UIImage+JSDTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 60E1A8B322F6D5A500BFFF1B /* UIImage+JSDTool.m */; };
+		60E1A8D522F6D5A500BFFF1B /* UIButton+JSDTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 60E1A8B522F6D5A500BFFF1B /* UIButton+JSDTool.m */; };
+		60E1A8D622F6D5A500BFFF1B /* UIView+JSDFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 60E1A8B822F6D5A500BFFF1B /* UIView+JSDFrame.m */; };
+		60E1A8D722F6D5A500BFFF1B /* UIColor+JSDTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 60E1A8BC22F6D5A500BFFF1B /* UIColor+JSDTool.m */; };
+		60E1A8D822F6D5A500BFFF1B /* UIFont+JSDTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 60E1A8BD22F6D5A500BFFF1B /* UIFont+JSDTool.m */; };
+		60E1A8D922F6D5A500BFFF1B /* JSDPhotoManage.m in Sources */ = {isa = PBXBuildFile; fileRef = 60E1A8C122F6D5A500BFFF1B /* JSDPhotoManage.m */; };
+		60E1A8DA22F6D5A500BFFF1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60E1A8C922F6D5A500BFFF1B /* Assets.xcassets */; };
+		60E1A8DB22F6D5A500BFFF1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60E1A8CA22F6D5A500BFFF1B /* LaunchScreen.storyboard */; };
+		60E1A8DC22F6D5A500BFFF1B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 60E1A8CC22F6D5A500BFFF1B /* main.m */; };
+		B480405E5F9CC84AF61DAAFF /* libPods-TomatoRemind.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CAE85C21C30267C948E727AF /* libPods-TomatoRemind.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5F5D7C8F17B227623BE08DB4 /* Pods-TomatoRemind.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TomatoRemind.release.xcconfig"; path = "Target Support Files/Pods-TomatoRemind/Pods-TomatoRemind.release.xcconfig"; sourceTree = "<group>"; };
+		60E1A84122F6D20F00BFFF1B /* TomatoRemind.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TomatoRemind.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		60E1A8A122F6D5A500BFFF1B /* JSDBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSDBaseModel.m; sourceTree = "<group>"; };
+		60E1A8A222F6D5A500BFFF1B /* JSDBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSDBaseModel.h; sourceTree = "<group>"; };
+		60E1A8A422F6D5A500BFFF1B /* JSDBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSDBaseView.m; sourceTree = "<group>"; };
+		60E1A8A522F6D5A500BFFF1B /* JSDBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSDBaseView.h; sourceTree = "<group>"; };
+		60E1A8A722F6D5A500BFFF1B /* JSDBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSDBaseViewController.m; sourceTree = "<group>"; };
+		60E1A8A822F6D5A500BFFF1B /* JSDBaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSDBaseNavigationController.h; sourceTree = "<group>"; };
+		60E1A8A922F6D5A500BFFF1B /* JSDBaseCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSDBaseCollectionViewController.m; sourceTree = "<group>"; };
+		60E1A8AA22F6D5A500BFFF1B /* JSDBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSDBaseViewController.h; sourceTree = "<group>"; };
+		60E1A8AB22F6D5A500BFFF1B /* JSDBaseCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSDBaseCollectionViewController.h; sourceTree = "<group>"; };
+		60E1A8AC22F6D5A500BFFF1B /* JSDBaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSDBaseNavigationController.m; sourceTree = "<group>"; };
+		60E1A8AE22F6D5A500BFFF1B /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		60E1A8AF22F6D5A500BFFF1B /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		60E1A8B222F6D5A500BFFF1B /* UIImage+JSDTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+JSDTool.h"; sourceTree = "<group>"; };
+		60E1A8B322F6D5A500BFFF1B /* UIImage+JSDTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+JSDTool.m"; sourceTree = "<group>"; };
+		60E1A8B522F6D5A500BFFF1B /* UIButton+JSDTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+JSDTool.m"; sourceTree = "<group>"; };
+		60E1A8B622F6D5A500BFFF1B /* UIButton+JSDTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+JSDTool.h"; sourceTree = "<group>"; };
+		60E1A8B822F6D5A500BFFF1B /* UIView+JSDFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JSDFrame.m"; sourceTree = "<group>"; };
+		60E1A8B922F6D5A500BFFF1B /* UIView+JSDFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JSDFrame.h"; sourceTree = "<group>"; };
+		60E1A8BB22F6D5A500BFFF1B /* UIFont+JSDTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+JSDTool.h"; sourceTree = "<group>"; };
+		60E1A8BC22F6D5A500BFFF1B /* UIColor+JSDTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+JSDTool.m"; sourceTree = "<group>"; };
+		60E1A8BD22F6D5A500BFFF1B /* UIFont+JSDTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+JSDTool.m"; sourceTree = "<group>"; };
+		60E1A8BE22F6D5A500BFFF1B /* UIColor+JSDTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+JSDTool.h"; sourceTree = "<group>"; };
+		60E1A8C122F6D5A500BFFF1B /* JSDPhotoManage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSDPhotoManage.m; sourceTree = "<group>"; };
+		60E1A8C222F6D5A500BFFF1B /* JSDPhotoManage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSDPhotoManage.h; sourceTree = "<group>"; };
+		60E1A8C422F6D5A500BFFF1B /* JSDDevMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSDDevMacro.h; sourceTree = "<group>"; };
+		60E1A8C522F6D5A500BFFF1B /* JSDPublic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSDPublic.h; sourceTree = "<group>"; };
+		60E1A8C622F6D5A500BFFF1B /* JSDPrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSDPrefixHeader.pch; sourceTree = "<group>"; };
+		60E1A8C722F6D5A500BFFF1B /* JSDMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSDMacro.h; sourceTree = "<group>"; };
+		60E1A8C922F6D5A500BFFF1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		60E1A8CB22F6D5A500BFFF1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		60E1A8CC22F6D5A500BFFF1B /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		60E1A8CD22F6D5A500BFFF1B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61422FBD630C7AA4590EE00F /* Pods-TomatoRemind.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TomatoRemind.debug.xcconfig"; path = "Target Support Files/Pods-TomatoRemind/Pods-TomatoRemind.debug.xcconfig"; sourceTree = "<group>"; };
+		CAE85C21C30267C948E727AF /* libPods-TomatoRemind.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TomatoRemind.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		60E1A83E22F6D20F00BFFF1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B480405E5F9CC84AF61DAAFF /* libPods-TomatoRemind.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07ED882896DFEECF03E4DD1C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CAE85C21C30267C948E727AF /* libPods-TomatoRemind.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		42C5DF26BC3C5E9E906015F5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				61422FBD630C7AA4590EE00F /* Pods-TomatoRemind.debug.xcconfig */,
+				5F5D7C8F17B227623BE08DB4 /* Pods-TomatoRemind.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		60E1A83822F6D20F00BFFF1B = {
+			isa = PBXGroup;
+			children = (
+				60E1A84322F6D20F00BFFF1B /* TomatoRemind */,
+				60E1A84222F6D20F00BFFF1B /* Products */,
+				42C5DF26BC3C5E9E906015F5 /* Pods */,
+				07ED882896DFEECF03E4DD1C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		60E1A84222F6D20F00BFFF1B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				60E1A84122F6D20F00BFFF1B /* TomatoRemind.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		60E1A84322F6D20F00BFFF1B /* TomatoRemind */ = {
+			isa = PBXGroup;
+			children = (
+				60E1A8AD22F6D5A500BFFF1B /* Application */,
+				60E1A89F22F6D5A500BFFF1B /* Base */,
+				60E1A8BF22F6D5A500BFFF1B /* BaseKit */,
+				60E1A8B022F6D5A500BFFF1B /* CategoryTool */,
+				60E1A8C322F6D5A500BFFF1B /* Public */,
+				60E1A8C822F6D5A500BFFF1B /* Supporting Files */,
+			);
+			path = TomatoRemind;
+			sourceTree = "<group>";
+		};
+		60E1A89F22F6D5A500BFFF1B /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				60E1A8A022F6D5A500BFFF1B /* Model */,
+				60E1A8A322F6D5A500BFFF1B /* View */,
+				60E1A8A622F6D5A500BFFF1B /* ViewController */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		60E1A8A022F6D5A500BFFF1B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				60E1A8A122F6D5A500BFFF1B /* JSDBaseModel.m */,
+				60E1A8A222F6D5A500BFFF1B /* JSDBaseModel.h */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		60E1A8A322F6D5A500BFFF1B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				60E1A8A422F6D5A500BFFF1B /* JSDBaseView.m */,
+				60E1A8A522F6D5A500BFFF1B /* JSDBaseView.h */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		60E1A8A622F6D5A500BFFF1B /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				60E1A8A722F6D5A500BFFF1B /* JSDBaseViewController.m */,
+				60E1A8A822F6D5A500BFFF1B /* JSDBaseNavigationController.h */,
+				60E1A8A922F6D5A500BFFF1B /* JSDBaseCollectionViewController.m */,
+				60E1A8AA22F6D5A500BFFF1B /* JSDBaseViewController.h */,
+				60E1A8AB22F6D5A500BFFF1B /* JSDBaseCollectionViewController.h */,
+				60E1A8AC22F6D5A500BFFF1B /* JSDBaseNavigationController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		60E1A8AD22F6D5A500BFFF1B /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				60E1A8AE22F6D5A500BFFF1B /* AppDelegate.h */,
+				60E1A8AF22F6D5A500BFFF1B /* AppDelegate.m */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		60E1A8B022F6D5A500BFFF1B /* CategoryTool */ = {
+			isa = PBXGroup;
+			children = (
+				60E1A8B122F6D5A500BFFF1B /* UIImage */,
+				60E1A8B422F6D5A500BFFF1B /* UIButton */,
+				60E1A8B722F6D5A500BFFF1B /* UIView */,
+				60E1A8BA22F6D5A500BFFF1B /* Style */,
+			);
+			path = CategoryTool;
+			sourceTree = "<group>";
+		};
+		60E1A8B122F6D5A500BFFF1B /* UIImage */ = {
+			isa = PBXGroup;
+			children = (
+				60E1A8B222F6D5A500BFFF1B /* UIImage+JSDTool.h */,
+				60E1A8B322F6D5A500BFFF1B /* UIImage+JSDTool.m */,
+			);
+			path = UIImage;
+			sourceTree = "<group>";
+		};
+		60E1A8B422F6D5A500BFFF1B /* UIButton */ = {
+			isa = PBXGroup;
+			children = (
+				60E1A8B522F6D5A500BFFF1B /* UIButton+JSDTool.m */,
+				60E1A8B622F6D5A500BFFF1B /* UIButton+JSDTool.h */,
+			);
+			path = UIButton;
+			sourceTree = "<group>";
+		};
+		60E1A8B722F6D5A500BFFF1B /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				60E1A8B822F6D5A500BFFF1B /* UIView+JSDFrame.m */,
+				60E1A8B922F6D5A500BFFF1B /* UIView+JSDFrame.h */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		60E1A8BA22F6D5A500BFFF1B /* Style */ = {
+			isa = PBXGroup;
+			children = (
+				60E1A8BB22F6D5A500BFFF1B /* UIFont+JSDTool.h */,
+				60E1A8BC22F6D5A500BFFF1B /* UIColor+JSDTool.m */,
+				60E1A8BD22F6D5A500BFFF1B /* UIFont+JSDTool.m */,
+				60E1A8BE22F6D5A500BFFF1B /* UIColor+JSDTool.h */,
+			);
+			path = Style;
+			sourceTree = "<group>";
+		};
+		60E1A8BF22F6D5A500BFFF1B /* BaseKit */ = {
+			isa = PBXGroup;
+			children = (
+				60E1A8C022F6D5A500BFFF1B /* UIView */,
+				60E1A8C122F6D5A500BFFF1B /* JSDPhotoManage.m */,
+				60E1A8C222F6D5A500BFFF1B /* JSDPhotoManage.h */,
+			);
+			path = BaseKit;
+			sourceTree = "<group>";
+		};
+		60E1A8C022F6D5A500BFFF1B /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		60E1A8C322F6D5A500BFFF1B /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				60E1A8C422F6D5A500BFFF1B /* JSDDevMacro.h */,
+				60E1A8C522F6D5A500BFFF1B /* JSDPublic.h */,
+				60E1A8C622F6D5A500BFFF1B /* JSDPrefixHeader.pch */,
+				60E1A8C722F6D5A500BFFF1B /* JSDMacro.h */,
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+		60E1A8C822F6D5A500BFFF1B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				60E1A8C922F6D5A500BFFF1B /* Assets.xcassets */,
+				60E1A8CA22F6D5A500BFFF1B /* LaunchScreen.storyboard */,
+				60E1A8CC22F6D5A500BFFF1B /* main.m */,
+				60E1A8CD22F6D5A500BFFF1B /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		60E1A84022F6D20F00BFFF1B /* TomatoRemind */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60E1A85722F6D21000BFFF1B /* Build configuration list for PBXNativeTarget "TomatoRemind" */;
+			buildPhases = (
+				2A7120D2B5ADEE381FDC59DE /* [CP] Check Pods Manifest.lock */,
+				60E1A83D22F6D20F00BFFF1B /* Sources */,
+				60E1A83E22F6D20F00BFFF1B /* Frameworks */,
+				60E1A83F22F6D20F00BFFF1B /* Resources */,
+				D76227E2FE66733EE3152F66 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TomatoRemind;
+			productName = TomatoRemind;
+			productReference = 60E1A84122F6D20F00BFFF1B /* TomatoRemind.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		60E1A83922F6D20F00BFFF1B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = JerseyCafe;
+				TargetAttributes = {
+					60E1A84022F6D20F00BFFF1B = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 60E1A83C22F6D20F00BFFF1B /* Build configuration list for PBXProject "TomatoRemind" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 60E1A83822F6D20F00BFFF1B;
+			productRefGroup = 60E1A84222F6D20F00BFFF1B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				60E1A84022F6D20F00BFFF1B /* TomatoRemind */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		60E1A83F22F6D20F00BFFF1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60E1A8DA22F6D5A500BFFF1B /* Assets.xcassets in Resources */,
+				60E1A8DB22F6D5A500BFFF1B /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2A7120D2B5ADEE381FDC59DE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TomatoRemind-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D76227E2FE66733EE3152F66 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TomatoRemind/Pods-TomatoRemind-resources.sh",
+				"${PODS_ROOT}/BRPickerView/BRPickerView/AddressPickerView/BRPickerView.bundle",
+				"${PODS_ROOT}/MaterialComponents/components/ActivityIndicator/src/MaterialActivityIndicator.bundle",
+				"${PODS_ROOT}/MaterialComponents/components/AppBar/src/MaterialAppBar.bundle",
+				"${PODS_ROOT}/MaterialComponents/components/BottomNavigation/src/MaterialBottomNavigation.bundle",
+				"${PODS_ROOT}/MaterialComponents/components/CollectionCells/src/MaterialCollectionCells.bundle",
+				"${PODS_ROOT}/MaterialComponents/components/Collections/src/MaterialCollections.bundle",
+				"${PODS_ROOT}/MaterialComponents/components/Dialogs/src/MaterialDialogs.bundle",
+				"${PODS_ROOT}/MaterialComponents/components/FeatureHighlight/src/MaterialFeatureHighlight.bundle",
+				"${PODS_ROOT}/MaterialComponents/components/PageControl/src/MaterialPageControl.bundle",
+				"${PODS_ROOT}/MaterialComponents/components/Snackbar/src/MaterialSnackbar.bundle",
+				"${PODS_ROOT}/MaterialComponents/components/Tabs/src/MaterialTabs.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/MaterialComponents/MaterialIcons_ic_arrow_back.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/MaterialComponents/MaterialIcons_ic_check.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/MaterialComponents/MaterialIcons_ic_check_circle.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/MaterialComponents/MaterialIcons_ic_chevron_right.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/MaterialComponents/MaterialIcons_ic_color_lens.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/MaterialComponents/MaterialIcons_ic_help_outline.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/MaterialComponents/MaterialIcons_ic_info.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/MaterialComponents/MaterialIcons_ic_more_horiz.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/MaterialComponents/MaterialIcons_ic_radio_button_unchecked.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/MaterialComponents/MaterialIcons_ic_reorder.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/MaterialComponents/MaterialIcons_ic_settings.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/BRPickerView.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialActivityIndicator.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialAppBar.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialBottomNavigation.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialCollectionCells.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialCollections.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialDialogs.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialFeatureHighlight.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialPageControl.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialSnackbar.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialTabs.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialIcons_ic_arrow_back.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialIcons_ic_check.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialIcons_ic_check_circle.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialIcons_ic_chevron_right.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialIcons_ic_color_lens.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialIcons_ic_help_outline.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialIcons_ic_info.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialIcons_ic_more_horiz.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialIcons_ic_radio_button_unchecked.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialIcons_ic_reorder.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialIcons_ic_settings.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TomatoRemind/Pods-TomatoRemind-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		60E1A83D22F6D20F00BFFF1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60E1A8DC22F6D5A500BFFF1B /* main.m in Sources */,
+				60E1A8CE22F6D5A500BFFF1B /* JSDBaseModel.m in Sources */,
+				60E1A8D522F6D5A500BFFF1B /* UIButton+JSDTool.m in Sources */,
+				60E1A8D122F6D5A500BFFF1B /* JSDBaseCollectionViewController.m in Sources */,
+				60E1A8D922F6D5A500BFFF1B /* JSDPhotoManage.m in Sources */,
+				60E1A8D722F6D5A500BFFF1B /* UIColor+JSDTool.m in Sources */,
+				60E1A8D322F6D5A500BFFF1B /* AppDelegate.m in Sources */,
+				60E1A8D222F6D5A500BFFF1B /* JSDBaseNavigationController.m in Sources */,
+				60E1A8D822F6D5A500BFFF1B /* UIFont+JSDTool.m in Sources */,
+				60E1A8CF22F6D5A500BFFF1B /* JSDBaseView.m in Sources */,
+				60E1A8D622F6D5A500BFFF1B /* UIView+JSDFrame.m in Sources */,
+				60E1A8D422F6D5A500BFFF1B /* UIImage+JSDTool.m in Sources */,
+				60E1A8D022F6D5A500BFFF1B /* JSDBaseViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		60E1A8CA22F6D5A500BFFF1B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60E1A8CB22F6D5A500BFFF1B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		60E1A85522F6D21000BFFF1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		60E1A85622F6D21000BFFF1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		60E1A85822F6D21000BFFF1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61422FBD630C7AA4590EE00F /* Pods-TomatoRemind.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8PB3C9ADKV;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/TomatoRemind/Public/JSDPrefixHeader.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/TomatoRemind/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.JerseyCafe.TomatoRemind;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		60E1A85922F6D21000BFFF1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F5D7C8F17B227623BE08DB4 /* Pods-TomatoRemind.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8PB3C9ADKV;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/TomatoRemind/Public/JSDPrefixHeader.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/TomatoRemind/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.JerseyCafe.TomatoRemind;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		60E1A83C22F6D20F00BFFF1B /* Build configuration list for PBXProject "TomatoRemind" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60E1A85522F6D21000BFFF1B /* Debug */,
+				60E1A85622F6D21000BFFF1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60E1A85722F6D21000BFFF1B /* Build configuration list for PBXNativeTarget "TomatoRemind" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60E1A85822F6D21000BFFF1B /* Debug */,
+				60E1A85922F6D21000BFFF1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 60E1A83922F6D20F00BFFF1B /* Project object */;
+}
