@@ -12,7 +12,7 @@
 
 + (UIColor *)jsd_mainGrayColor {
     
-    return [UIColor jsd_colorWithHexString:@"#f5f4f9"];
+    return [UIColor jsd_colorWithHexString:@"#f5f6f6"];
 }
 
 + (UIColor *)jsd_grayColor {
@@ -33,6 +33,11 @@
 + (UIColor *)jsd_mainBlueColor {
     
     return [UIColor jsd_colorWithHexString:@"#2EA2F5"];
+}
+
++ (UIColor *)jsd_mainGreenColor {
+    
+    return [UIColor jsd_colorWithHexString:@"#51B396"];
 }
 
 #pragma mark -- Text Color

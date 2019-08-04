@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="JSDHomeNaviBar">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="80"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Chh-3N-GKc" customClass="MDCButton">
+                    <rect key="frame" x="28" y="25" width="30" height="30"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mTB-vb-KO8" customClass="MDCButton">
+                    <rect key="frame" x="354" y="25" width="30" height="30"/>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rBR-PI-hfC">
+                    <rect key="frame" x="186" y="29.5" width="42" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Chh-3N-GKc" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="1kf-vu-OVv"/>
+                <constraint firstItem="mTB-vb-KO8" firstAttribute="centerY" secondItem="Chh-3N-GKc" secondAttribute="centerY" id="7WH-SC-aHk"/>
+                <constraint firstAttribute="trailing" secondItem="mTB-vb-KO8" secondAttribute="trailing" constant="30" id="X5O-J9-9F2"/>
+                <constraint firstItem="rBR-PI-hfC" firstAttribute="centerY" secondItem="Chh-3N-GKc" secondAttribute="centerY" id="cek-ML-fXW"/>
+                <constraint firstItem="rBR-PI-hfC" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="mxy-yb-YEr"/>
+                <constraint firstItem="Chh-3N-GKc" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="28" id="w3k-92-m2X"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="leftItemButton" destination="Chh-3N-GKc" id="wa2-bj-C5J"/>
+                <outlet property="rightItemButton" destination="mTB-vb-KO8" id="QKj-CS-l0H"/>
+                <outlet property="titleLabel" destination="rBR-PI-hfC" id="5aY-EE-Dvu"/>
+            </connections>
+        </view>
+    </objects>
+</document>

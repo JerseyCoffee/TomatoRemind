@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6045C3C922F6DF03008B38BE /* JSDHomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6045C3C822F6DF03008B38BE /* JSDHomeVC.m */; };
+		6045C3CC22F6E15B008B38BE /* JSDHomeNaviBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 6045C3CB22F6E15B008B38BE /* JSDHomeNaviBar.m */; };
+		6045C3CE22F6E164008B38BE /* JSDHomeNaviBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6045C3CD22F6E164008B38BE /* JSDHomeNaviBar.xib */; };
+		6045C3D122F6E3C3008B38BE /* JSDHomeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6045C3D022F6E3C3008B38BE /* JSDHomeView.m */; };
+		6045C3D322F6E3CB008B38BE /* JSDHomeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6045C3D222F6E3CB008B38BE /* JSDHomeView.xib */; };
+		6045C3D622F6EA61008B38BE /* JSDShowStatusView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6045C3D522F6EA61008B38BE /* JSDShowStatusView.m */; };
 		60E1A8CE22F6D5A500BFFF1B /* JSDBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 60E1A8A122F6D5A500BFFF1B /* JSDBaseModel.m */; };
 		60E1A8CF22F6D5A500BFFF1B /* JSDBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 60E1A8A422F6D5A500BFFF1B /* JSDBaseView.m */; };
 		60E1A8D022F6D5A500BFFF1B /* JSDBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60E1A8A722F6D5A500BFFF1B /* JSDBaseViewController.m */; };
@@ -27,6 +33,16 @@
 
 /* Begin PBXFileReference section */
 		5F5D7C8F17B227623BE08DB4 /* Pods-TomatoRemind.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TomatoRemind.release.xcconfig"; path = "Target Support Files/Pods-TomatoRemind/Pods-TomatoRemind.release.xcconfig"; sourceTree = "<group>"; };
+		6045C3C722F6DF03008B38BE /* JSDHomeVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSDHomeVC.h; sourceTree = "<group>"; };
+		6045C3C822F6DF03008B38BE /* JSDHomeVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSDHomeVC.m; sourceTree = "<group>"; };
+		6045C3CA22F6E15B008B38BE /* JSDHomeNaviBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSDHomeNaviBar.h; sourceTree = "<group>"; };
+		6045C3CB22F6E15B008B38BE /* JSDHomeNaviBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSDHomeNaviBar.m; sourceTree = "<group>"; };
+		6045C3CD22F6E164008B38BE /* JSDHomeNaviBar.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JSDHomeNaviBar.xib; sourceTree = "<group>"; };
+		6045C3CF22F6E3C3008B38BE /* JSDHomeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSDHomeView.h; sourceTree = "<group>"; };
+		6045C3D022F6E3C3008B38BE /* JSDHomeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSDHomeView.m; sourceTree = "<group>"; };
+		6045C3D222F6E3CB008B38BE /* JSDHomeView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JSDHomeView.xib; sourceTree = "<group>"; };
+		6045C3D422F6EA61008B38BE /* JSDShowStatusView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSDShowStatusView.h; sourceTree = "<group>"; };
+		6045C3D522F6EA61008B38BE /* JSDShowStatusView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSDShowStatusView.m; sourceTree = "<group>"; };
 		60E1A84122F6D20F00BFFF1B /* TomatoRemind.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TomatoRemind.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60E1A8A122F6D5A500BFFF1B /* JSDBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSDBaseModel.m; sourceTree = "<group>"; };
 		60E1A8A222F6D5A500BFFF1B /* JSDBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSDBaseModel.h; sourceTree = "<group>"; };
@@ -93,6 +109,87 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		6045C3BE22F6DEE2008B38BE /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				6045C3BF22F6DEE2008B38BE /* Home */,
+				6045C3C322F6DEE2008B38BE /* My */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		6045C3BF22F6DEE2008B38BE /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				6045C3C022F6DEE2008B38BE /* Model */,
+				6045C3C122F6DEE2008B38BE /* View */,
+				6045C3C222F6DEE2008B38BE /* ViewController */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		6045C3C022F6DEE2008B38BE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6045C3C122F6DEE2008B38BE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6045C3CA22F6E15B008B38BE /* JSDHomeNaviBar.h */,
+				6045C3CB22F6E15B008B38BE /* JSDHomeNaviBar.m */,
+				6045C3CD22F6E164008B38BE /* JSDHomeNaviBar.xib */,
+				6045C3CF22F6E3C3008B38BE /* JSDHomeView.h */,
+				6045C3D022F6E3C3008B38BE /* JSDHomeView.m */,
+				6045C3D222F6E3CB008B38BE /* JSDHomeView.xib */,
+				6045C3D422F6EA61008B38BE /* JSDShowStatusView.h */,
+				6045C3D522F6EA61008B38BE /* JSDShowStatusView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6045C3C222F6DEE2008B38BE /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6045C3C722F6DF03008B38BE /* JSDHomeVC.h */,
+				6045C3C822F6DF03008B38BE /* JSDHomeVC.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		6045C3C322F6DEE2008B38BE /* My */ = {
+			isa = PBXGroup;
+			children = (
+				6045C3C422F6DEE2008B38BE /* Model */,
+				6045C3C522F6DEE2008B38BE /* View */,
+				6045C3C622F6DEE2008B38BE /* ViewController */,
+			);
+			path = My;
+			sourceTree = "<group>";
+		};
+		6045C3C422F6DEE2008B38BE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6045C3C522F6DEE2008B38BE /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6045C3C622F6DEE2008B38BE /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
 		60E1A83822F6D20F00BFFF1B = {
 			isa = PBXGroup;
 			children = (
@@ -117,6 +214,7 @@
 				60E1A8AD22F6D5A500BFFF1B /* Application */,
 				60E1A89F22F6D5A500BFFF1B /* Base */,
 				60E1A8BF22F6D5A500BFFF1B /* BaseKit */,
+				6045C3BE22F6DEE2008B38BE /* Modules */,
 				60E1A8B022F6D5A500BFFF1B /* CategoryTool */,
 				60E1A8C322F6D5A500BFFF1B /* Public */,
 				60E1A8C822F6D5A500BFFF1B /* Supporting Files */,
@@ -215,10 +313,10 @@
 		60E1A8BA22F6D5A500BFFF1B /* Style */ = {
 			isa = PBXGroup;
 			children = (
-				60E1A8BB22F6D5A500BFFF1B /* UIFont+JSDTool.h */,
-				60E1A8BC22F6D5A500BFFF1B /* UIColor+JSDTool.m */,
-				60E1A8BD22F6D5A500BFFF1B /* UIFont+JSDTool.m */,
 				60E1A8BE22F6D5A500BFFF1B /* UIColor+JSDTool.h */,
+				60E1A8BC22F6D5A500BFFF1B /* UIColor+JSDTool.m */,
+				60E1A8BB22F6D5A500BFFF1B /* UIFont+JSDTool.h */,
+				60E1A8BD22F6D5A500BFFF1B /* UIFont+JSDTool.m */,
 			);
 			path = Style;
 			sourceTree = "<group>";
@@ -322,6 +420,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				60E1A8DA22F6D5A500BFFF1B /* Assets.xcassets in Resources */,
+				6045C3D322F6E3CB008B38BE /* JSDHomeView.xib in Resources */,
+				6045C3CE22F6E164008B38BE /* JSDHomeNaviBar.xib in Resources */,
 				60E1A8DB22F6D5A500BFFF1B /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -424,7 +524,10 @@
 			files = (
 				60E1A8DC22F6D5A500BFFF1B /* main.m in Sources */,
 				60E1A8CE22F6D5A500BFFF1B /* JSDBaseModel.m in Sources */,
+				6045C3CC22F6E15B008B38BE /* JSDHomeNaviBar.m in Sources */,
+				6045C3D622F6EA61008B38BE /* JSDShowStatusView.m in Sources */,
 				60E1A8D522F6D5A500BFFF1B /* UIButton+JSDTool.m in Sources */,
+				6045C3C922F6DF03008B38BE /* JSDHomeVC.m in Sources */,
 				60E1A8D122F6D5A500BFFF1B /* JSDBaseCollectionViewController.m in Sources */,
 				60E1A8D922F6D5A500BFFF1B /* JSDPhotoManage.m in Sources */,
 				60E1A8D722F6D5A500BFFF1B /* UIColor+JSDTool.m in Sources */,
@@ -433,6 +536,7 @@
 				60E1A8D822F6D5A500BFFF1B /* UIFont+JSDTool.m in Sources */,
 				60E1A8CF22F6D5A500BFFF1B /* JSDBaseView.m in Sources */,
 				60E1A8D622F6D5A500BFFF1B /* UIView+JSDFrame.m in Sources */,
+				6045C3D122F6E3C3008B38BE /* JSDHomeView.m in Sources */,
 				60E1A8D422F6D5A500BFFF1B /* UIImage+JSDTool.m in Sources */,
 				60E1A8D022F6D5A500BFFF1B /* JSDBaseViewController.m in Sources */,
 			);

@@ -18,6 +18,7 @@ NS_ASSUME_NONNULL_BEGIN
 + (UIColor *)jsd_tealcolor;
 + (UIColor *)jsd_skyBluecolor;
 + (UIColor *)jsd_mainBlueColor;
++ (UIColor *)jsd_mainGreenColor;
 
 #pragma mark -Text Color
 

@@ -17,6 +17,14 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    JSDHomeVC* homeVC = JSDHomeVC.new;
+    JSDBaseNavigationController* nav = [[JSDBaseNavigationController alloc] initWithRootViewController:homeVC];
+    homeVC.cyl_navigationBarHidden = YES;
+    self.window.rootViewController = nav;
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 
