@@ -40,15 +40,15 @@
     
     self.imageContentView.backgroundColor = [UIColor jsd_mainGrayColor];
     
-    self.centerContentView.backgroundColor = [UIColor jsd_mainGrayColor];
-    self.centerImageViewHeight.constant = self.centerContentView.jsd_width;
+    self.backgroundImageView.image = [UIImage imageNamed:@"home_background"];
     
+    self.centerContentView.backgroundColor = [UIColor clearColor];
+    self.centerImageViewHeight.constant = self.centerContentView.jsd_width;
     self.centerImageView.layer.cornerRadius = self.centerImageView.jsd_width / 2;
     self.centerImageView.layer.masksToBounds = YES;
+    self.centerImageView.image = [UIImage imageNamed:@"home_imageView"];
     
     self.showTimeView.backgroundColor = [UIColor clearColor];
-    
-    
 }
 
 @end

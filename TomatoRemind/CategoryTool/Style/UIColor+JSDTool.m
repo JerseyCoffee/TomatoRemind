@@ -57,6 +57,11 @@
     return [UIColor colorWithRed:113/255.0 green:120/255.0 blue:130/255.0 alpha:1.0];
 }
 
++ (UIColor *)jsd_naviTitleColor {
+    
+    return [UIColor jsd_colorWithHexString:@"#576378"];
+}
+
 #pragma mark - Title Color
 
 + (UIColor *)jsd_mainBlackColor {

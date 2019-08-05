@@ -22,6 +22,7 @@
     JSDHomeVC* homeVC = JSDHomeVC.new;
     JSDBaseNavigationController* nav = [[JSDBaseNavigationController alloc] initWithRootViewController:homeVC];
     homeVC.cyl_navigationBarHidden = YES;
+    homeVC.cyl_hideNavigationBarSeparator = YES;
     self.window.rootViewController = nav;
     [self.window makeKeyAndVisible];
     

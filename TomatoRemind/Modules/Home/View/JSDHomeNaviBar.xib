@@ -17,10 +17,24 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Chh-3N-GKc" customClass="MDCButton">
-                    <rect key="frame" x="28" y="25" width="30" height="30"/>
+                    <rect key="frame" x="28" y="22.5" width="35" height="35"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="35" id="DVG-Ai-Ku7"/>
+                        <constraint firstAttribute="width" constant="35" id="Lhd-Qz-zUk"/>
+                    </constraints>
+                    <connections>
+                        <action selector="onTouchLeftItem:" destination="iN0-l3-epB" eventType="touchUpInside" id="Qoq-Hv-vWa"/>
+                    </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mTB-vb-KO8" customClass="MDCButton">
-                    <rect key="frame" x="354" y="25" width="30" height="30"/>
+                    <rect key="frame" x="362" y="29" width="22" height="22"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="22" id="aMa-ml-esM"/>
+                        <constraint firstAttribute="width" constant="22" id="nAH-8H-VUv"/>
+                    </constraints>
+                    <connections>
+                        <action selector="onTouchRightItem:" destination="iN0-l3-epB" eventType="touchUpInside" id="poi-wz-zb6"/>
+                    </connections>
                 </button>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rBR-PI-hfC">
                     <rect key="frame" x="186" y="29.5" width="42" height="21"/>

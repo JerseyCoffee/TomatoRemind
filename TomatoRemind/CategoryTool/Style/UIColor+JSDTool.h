@@ -25,6 +25,7 @@ NS_ASSUME_NONNULL_BEGIN
 + (UIColor *)jsd_mainTextColor;
 + (UIColor *)jsd_minorTextColor;
 + (UIColor *)jsd_detailTextColor;
++ (UIColor *)jsd_naviTitleColor; //导航栏标题颜色
 
 #pragma mark - Title Color
 

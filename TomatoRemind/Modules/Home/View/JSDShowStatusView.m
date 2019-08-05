@@ -38,6 +38,9 @@
 //    _beginButton.layer.shadowRadius = 6;
     _beginButton.layer.cornerRadius = 24;
     [_beginButton setBackgroundColor:[UIColor jsd_mainGreenColor] forState:UIControlStateNormal];
+    UIImage* buttonImage = [UIImage imageNamed:@"home_begin"];
+    [_beginButton setImage:buttonImage forState:UIControlStateNormal];
+    [_beginButton setImageTintColor:[UIColor whiteColor] forState:UIControlStateNormal];
     
     [self addSubview:_beginButton];
     [_beginButton mas_makeConstraints:^(MASConstraintMaker *make) {
@@ -45,6 +48,14 @@
         make.width.mas_equalTo(148);
         make.height.mas_equalTo(48);
     }];
+}
+
+- (void)layoutSubviews {
+    
+    [super layoutSubviews];
+    
+    _beginButton.imageEdgeInsets = UIEdgeInsetsMake(0, -5, 0, 0);
+    _beginButton.titleEdgeInsets = UIEdgeInsetsMake(0, 0, 0, 5);
 }
 
 @end

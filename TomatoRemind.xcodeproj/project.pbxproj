@@ -7,6 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		55BE12F822F7DC0600423EA8 /* JSDFocusSettingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 55BE12F722F7DC0600423EA8 /* JSDFocusSettingVC.m */; };
+		55BE131C22F7E05D00423EA8 /* JSDAboutUSVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 55BE12FB22F7E05D00423EA8 /* JSDAboutUSVC.m */; };
+		55BE131D22F7E05D00423EA8 /* JSDAbountViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 55BE12FC22F7E05D00423EA8 /* JSDAbountViewModel.m */; };
+		55BE131E22F7E05D00423EA8 /* JSDFeedBacksVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55BE130122F7E05D00423EA8 /* JSDFeedBacksVC.xib */; };
+		55BE131F22F7E05D00423EA8 /* JSDFeedBacksVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 55BE130222F7E05D00423EA8 /* JSDFeedBacksVC.m */; };
+		55BE132022F7E05D00423EA8 /* JSDMyCenterViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 55BE130422F7E05D00423EA8 /* JSDMyCenterViewModel.m */; };
+		55BE132122F7E05D00423EA8 /* JSDMyCenterHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55BE130822F7E05D00423EA8 /* JSDMyCenterHeaderView.xib */; };
+		55BE132222F7E05D00423EA8 /* JSDCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55BE130A22F7E05D00423EA8 /* JSDCollectionViewCell.xib */; };
+		55BE132322F7E05D00423EA8 /* JSDMyCenterHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 55BE130B22F7E05D00423EA8 /* JSDMyCenterHeaderView.m */; };
+		55BE132422F7E05D00423EA8 /* JSDCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 55BE130C22F7E05D00423EA8 /* JSDCollectionViewCell.m */; };
+		55BE132522F7E05D00423EA8 /* JSDSettingViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 55BE131022F7E05D00423EA8 /* JSDSettingViewModel.m */; };
+		55BE132622F7E05D00423EA8 /* JSDSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 55BE131322F7E05D00423EA8 /* JSDSwitch.m */; };
+		55BE132722F7E05D00423EA8 /* JSDSettingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55BE131522F7E05D00423EA8 /* JSDSettingCell.xib */; };
+		55BE132822F7E05D00423EA8 /* JSDSettingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 55BE131722F7E05D00423EA8 /* JSDSettingCell.m */; };
+		55BE132922F7E05D00423EA8 /* JSDSettingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 55BE131822F7E05D00423EA8 /* JSDSettingVC.m */; };
+		55BE132D22F7E12000423EA8 /* JSDMyCenterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 55BE132C22F7E12000423EA8 /* JSDMyCenterVC.m */; };
+		55BE133122F7E34400423EA8 /* JSDMyResource.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55BE132F22F7E34300423EA8 /* JSDMyResource.xib */; };
+		55BE133222F7E34400423EA8 /* JSDMyResource.m in Sources */ = {isa = PBXBuildFile; fileRef = 55BE133022F7E34300423EA8 /* JSDMyResource.m */; };
+		55BE133522F7E85C00423EA8 /* JSDUseRecordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 55BE133422F7E85C00423EA8 /* JSDUseRecordView.m */; };
+		55BE133722F7E86500423EA8 /* JSDUseRecordView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55BE133622F7E86500423EA8 /* JSDUseRecordView.xib */; };
 		6045C3C922F6DF03008B38BE /* JSDHomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6045C3C822F6DF03008B38BE /* JSDHomeVC.m */; };
 		6045C3CC22F6E15B008B38BE /* JSDHomeNaviBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 6045C3CB22F6E15B008B38BE /* JSDHomeNaviBar.m */; };
 		6045C3CE22F6E164008B38BE /* JSDHomeNaviBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6045C3CD22F6E164008B38BE /* JSDHomeNaviBar.xib */; };
@@ -32,6 +52,40 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		55BE12F622F7DC0600423EA8 /* JSDFocusSettingVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSDFocusSettingVC.h; sourceTree = "<group>"; };
+		55BE12F722F7DC0600423EA8 /* JSDFocusSettingVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSDFocusSettingVC.m; sourceTree = "<group>"; };
+		55BE12FB22F7E05D00423EA8 /* JSDAboutUSVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSDAboutUSVC.m; sourceTree = "<group>"; };
+		55BE12FC22F7E05D00423EA8 /* JSDAbountViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSDAbountViewModel.m; sourceTree = "<group>"; };
+		55BE12FD22F7E05D00423EA8 /* JSDAboutUSVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSDAboutUSVC.h; sourceTree = "<group>"; };
+		55BE12FE22F7E05D00423EA8 /* JSDAbountViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSDAbountViewModel.h; sourceTree = "<group>"; };
+		55BE130022F7E05D00423EA8 /* JSDFeedBacksVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSDFeedBacksVC.h; sourceTree = "<group>"; };
+		55BE130122F7E05D00423EA8 /* JSDFeedBacksVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JSDFeedBacksVC.xib; sourceTree = "<group>"; };
+		55BE130222F7E05D00423EA8 /* JSDFeedBacksVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSDFeedBacksVC.m; sourceTree = "<group>"; };
+		55BE130422F7E05D00423EA8 /* JSDMyCenterViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSDMyCenterViewModel.m; sourceTree = "<group>"; };
+		55BE130522F7E05D00423EA8 /* JSDMyCenterViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSDMyCenterViewModel.h; sourceTree = "<group>"; };
+		55BE130722F7E05D00423EA8 /* JSDMyCenterHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSDMyCenterHeaderView.h; sourceTree = "<group>"; };
+		55BE130822F7E05D00423EA8 /* JSDMyCenterHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JSDMyCenterHeaderView.xib; sourceTree = "<group>"; };
+		55BE130922F7E05D00423EA8 /* JSDCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSDCollectionViewCell.h; sourceTree = "<group>"; };
+		55BE130A22F7E05D00423EA8 /* JSDCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JSDCollectionViewCell.xib; sourceTree = "<group>"; };
+		55BE130B22F7E05D00423EA8 /* JSDMyCenterHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSDMyCenterHeaderView.m; sourceTree = "<group>"; };
+		55BE130C22F7E05D00423EA8 /* JSDCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSDCollectionViewCell.m; sourceTree = "<group>"; };
+		55BE130E22F7E05D00423EA8 /* JSDSettingVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSDSettingVC.h; sourceTree = "<group>"; };
+		55BE131022F7E05D00423EA8 /* JSDSettingViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSDSettingViewModel.m; sourceTree = "<group>"; };
+		55BE131122F7E05D00423EA8 /* JSDSettingViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSDSettingViewModel.h; sourceTree = "<group>"; };
+		55BE131322F7E05D00423EA8 /* JSDSwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSDSwitch.m; sourceTree = "<group>"; };
+		55BE131422F7E05D00423EA8 /* JSDSettingCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSDSettingCell.h; sourceTree = "<group>"; };
+		55BE131522F7E05D00423EA8 /* JSDSettingCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JSDSettingCell.xib; sourceTree = "<group>"; };
+		55BE131622F7E05D00423EA8 /* JSDSwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSDSwitch.h; sourceTree = "<group>"; };
+		55BE131722F7E05D00423EA8 /* JSDSettingCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSDSettingCell.m; sourceTree = "<group>"; };
+		55BE131822F7E05D00423EA8 /* JSDSettingVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSDSettingVC.m; sourceTree = "<group>"; };
+		55BE132B22F7E12000423EA8 /* JSDMyCenterVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSDMyCenterVC.h; sourceTree = "<group>"; };
+		55BE132C22F7E12000423EA8 /* JSDMyCenterVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSDMyCenterVC.m; sourceTree = "<group>"; };
+		55BE132E22F7E34300423EA8 /* JSDMyResource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSDMyResource.h; sourceTree = "<group>"; };
+		55BE132F22F7E34300423EA8 /* JSDMyResource.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JSDMyResource.xib; sourceTree = "<group>"; };
+		55BE133022F7E34300423EA8 /* JSDMyResource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSDMyResource.m; sourceTree = "<group>"; };
+		55BE133322F7E85C00423EA8 /* JSDUseRecordView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSDUseRecordView.h; sourceTree = "<group>"; };
+		55BE133422F7E85C00423EA8 /* JSDUseRecordView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSDUseRecordView.m; sourceTree = "<group>"; };
+		55BE133622F7E86500423EA8 /* JSDUseRecordView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JSDUseRecordView.xib; sourceTree = "<group>"; };
 		5F5D7C8F17B227623BE08DB4 /* Pods-TomatoRemind.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TomatoRemind.release.xcconfig"; path = "Target Support Files/Pods-TomatoRemind/Pods-TomatoRemind.release.xcconfig"; sourceTree = "<group>"; };
 		6045C3C722F6DF03008B38BE /* JSDHomeVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSDHomeVC.h; sourceTree = "<group>"; };
 		6045C3C822F6DF03008B38BE /* JSDHomeVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSDHomeVC.m; sourceTree = "<group>"; };
@@ -109,11 +163,148 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		55BE12EF22F7DB3900423EA8 /* FocusSetting */ = {
+			isa = PBXGroup;
+			children = (
+				55BE12F222F7DB4F00423EA8 /* Controller */,
+				55BE12F122F7DB4700423EA8 /* Model */,
+				55BE12F022F7DB4100423EA8 /* View */,
+			);
+			path = FocusSetting;
+			sourceTree = "<group>";
+		};
+		55BE12F022F7DB4100423EA8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		55BE12F122F7DB4700423EA8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		55BE12F222F7DB4F00423EA8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				55BE12F622F7DC0600423EA8 /* JSDFocusSettingVC.h */,
+				55BE12F722F7DC0600423EA8 /* JSDFocusSettingVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		55BE12F922F7E05D00423EA8 /* My */ = {
+			isa = PBXGroup;
+			children = (
+				55BE12FA22F7E05D00423EA8 /* About */,
+				55BE12FF22F7E05D00423EA8 /* Feedback */,
+				55BE130322F7E05D00423EA8 /* Model */,
+				55BE130622F7E05D00423EA8 /* View */,
+				55BE130D22F7E05D00423EA8 /* Setting */,
+				55BE131922F7E05D00423EA8 /* ViewController */,
+			);
+			path = My;
+			sourceTree = "<group>";
+		};
+		55BE12FA22F7E05D00423EA8 /* About */ = {
+			isa = PBXGroup;
+			children = (
+				55BE12FE22F7E05D00423EA8 /* JSDAbountViewModel.h */,
+				55BE12FC22F7E05D00423EA8 /* JSDAbountViewModel.m */,
+				55BE12FD22F7E05D00423EA8 /* JSDAboutUSVC.h */,
+				55BE12FB22F7E05D00423EA8 /* JSDAboutUSVC.m */,
+			);
+			path = About;
+			sourceTree = "<group>";
+		};
+		55BE12FF22F7E05D00423EA8 /* Feedback */ = {
+			isa = PBXGroup;
+			children = (
+				55BE130022F7E05D00423EA8 /* JSDFeedBacksVC.h */,
+				55BE130222F7E05D00423EA8 /* JSDFeedBacksVC.m */,
+				55BE130122F7E05D00423EA8 /* JSDFeedBacksVC.xib */,
+			);
+			path = Feedback;
+			sourceTree = "<group>";
+		};
+		55BE130322F7E05D00423EA8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				55BE130522F7E05D00423EA8 /* JSDMyCenterViewModel.h */,
+				55BE130422F7E05D00423EA8 /* JSDMyCenterViewModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		55BE130622F7E05D00423EA8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				55BE130922F7E05D00423EA8 /* JSDCollectionViewCell.h */,
+				55BE130C22F7E05D00423EA8 /* JSDCollectionViewCell.m */,
+				55BE130A22F7E05D00423EA8 /* JSDCollectionViewCell.xib */,
+				55BE130722F7E05D00423EA8 /* JSDMyCenterHeaderView.h */,
+				55BE130B22F7E05D00423EA8 /* JSDMyCenterHeaderView.m */,
+				55BE130822F7E05D00423EA8 /* JSDMyCenterHeaderView.xib */,
+				55BE133322F7E85C00423EA8 /* JSDUseRecordView.h */,
+				55BE133422F7E85C00423EA8 /* JSDUseRecordView.m */,
+				55BE133622F7E86500423EA8 /* JSDUseRecordView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		55BE130D22F7E05D00423EA8 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				55BE130E22F7E05D00423EA8 /* JSDSettingVC.h */,
+				55BE131822F7E05D00423EA8 /* JSDSettingVC.m */,
+				55BE130F22F7E05D00423EA8 /* Model */,
+				55BE131222F7E05D00423EA8 /* View */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		55BE130F22F7E05D00423EA8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				55BE131022F7E05D00423EA8 /* JSDSettingViewModel.m */,
+				55BE131122F7E05D00423EA8 /* JSDSettingViewModel.h */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		55BE131222F7E05D00423EA8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				55BE131422F7E05D00423EA8 /* JSDSettingCell.h */,
+				55BE131722F7E05D00423EA8 /* JSDSettingCell.m */,
+				55BE131522F7E05D00423EA8 /* JSDSettingCell.xib */,
+				55BE131622F7E05D00423EA8 /* JSDSwitch.h */,
+				55BE131322F7E05D00423EA8 /* JSDSwitch.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		55BE131922F7E05D00423EA8 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				55BE132B22F7E12000423EA8 /* JSDMyCenterVC.h */,
+				55BE132C22F7E12000423EA8 /* JSDMyCenterVC.m */,
+				55BE132E22F7E34300423EA8 /* JSDMyResource.h */,
+				55BE133022F7E34300423EA8 /* JSDMyResource.m */,
+				55BE132F22F7E34300423EA8 /* JSDMyResource.xib */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
 		6045C3BE22F6DEE2008B38BE /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				55BE12F922F7E05D00423EA8 /* My */,
+				55BE12EF22F7DB3900423EA8 /* FocusSetting */,
 				6045C3BF22F6DEE2008B38BE /* Home */,
-				6045C3C322F6DEE2008B38BE /* My */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -155,37 +346,6 @@
 			children = (
 				6045C3C722F6DF03008B38BE /* JSDHomeVC.h */,
 				6045C3C822F6DF03008B38BE /* JSDHomeVC.m */,
-			);
-			path = ViewController;
-			sourceTree = "<group>";
-		};
-		6045C3C322F6DEE2008B38BE /* My */ = {
-			isa = PBXGroup;
-			children = (
-				6045C3C422F6DEE2008B38BE /* Model */,
-				6045C3C522F6DEE2008B38BE /* View */,
-				6045C3C622F6DEE2008B38BE /* ViewController */,
-			);
-			path = My;
-			sourceTree = "<group>";
-		};
-		6045C3C422F6DEE2008B38BE /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		6045C3C522F6DEE2008B38BE /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		6045C3C622F6DEE2008B38BE /* ViewController */ = {
-			isa = PBXGroup;
-			children = (
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -253,12 +413,12 @@
 		60E1A8A622F6D5A500BFFF1B /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				60E1A8A722F6D5A500BFFF1B /* JSDBaseViewController.m */,
-				60E1A8A822F6D5A500BFFF1B /* JSDBaseNavigationController.h */,
-				60E1A8A922F6D5A500BFFF1B /* JSDBaseCollectionViewController.m */,
-				60E1A8AA22F6D5A500BFFF1B /* JSDBaseViewController.h */,
 				60E1A8AB22F6D5A500BFFF1B /* JSDBaseCollectionViewController.h */,
+				60E1A8A922F6D5A500BFFF1B /* JSDBaseCollectionViewController.m */,
+				60E1A8A822F6D5A500BFFF1B /* JSDBaseNavigationController.h */,
 				60E1A8AC22F6D5A500BFFF1B /* JSDBaseNavigationController.m */,
+				60E1A8AA22F6D5A500BFFF1B /* JSDBaseViewController.h */,
+				60E1A8A722F6D5A500BFFF1B /* JSDBaseViewController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -421,7 +581,13 @@
 			files = (
 				60E1A8DA22F6D5A500BFFF1B /* Assets.xcassets in Resources */,
 				6045C3D322F6E3CB008B38BE /* JSDHomeView.xib in Resources */,
+				55BE132722F7E05D00423EA8 /* JSDSettingCell.xib in Resources */,
+				55BE133722F7E86500423EA8 /* JSDUseRecordView.xib in Resources */,
+				55BE133122F7E34400423EA8 /* JSDMyResource.xib in Resources */,
+				55BE131E22F7E05D00423EA8 /* JSDFeedBacksVC.xib in Resources */,
 				6045C3CE22F6E164008B38BE /* JSDHomeNaviBar.xib in Resources */,
+				55BE132122F7E05D00423EA8 /* JSDMyCenterHeaderView.xib in Resources */,
+				55BE132222F7E05D00423EA8 /* JSDCollectionViewCell.xib in Resources */,
 				60E1A8DB22F6D5A500BFFF1B /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -523,21 +689,35 @@
 			buildActionMask = 2147483647;
 			files = (
 				60E1A8DC22F6D5A500BFFF1B /* main.m in Sources */,
+				55BE132922F7E05D00423EA8 /* JSDSettingVC.m in Sources */,
+				55BE132022F7E05D00423EA8 /* JSDMyCenterViewModel.m in Sources */,
+				55BE132822F7E05D00423EA8 /* JSDSettingCell.m in Sources */,
+				55BE132422F7E05D00423EA8 /* JSDCollectionViewCell.m in Sources */,
 				60E1A8CE22F6D5A500BFFF1B /* JSDBaseModel.m in Sources */,
 				6045C3CC22F6E15B008B38BE /* JSDHomeNaviBar.m in Sources */,
+				55BE133222F7E34400423EA8 /* JSDMyResource.m in Sources */,
 				6045C3D622F6EA61008B38BE /* JSDShowStatusView.m in Sources */,
 				60E1A8D522F6D5A500BFFF1B /* UIButton+JSDTool.m in Sources */,
 				6045C3C922F6DF03008B38BE /* JSDHomeVC.m in Sources */,
 				60E1A8D122F6D5A500BFFF1B /* JSDBaseCollectionViewController.m in Sources */,
 				60E1A8D922F6D5A500BFFF1B /* JSDPhotoManage.m in Sources */,
 				60E1A8D722F6D5A500BFFF1B /* UIColor+JSDTool.m in Sources */,
+				55BE131F22F7E05D00423EA8 /* JSDFeedBacksVC.m in Sources */,
+				55BE131D22F7E05D00423EA8 /* JSDAbountViewModel.m in Sources */,
 				60E1A8D322F6D5A500BFFF1B /* AppDelegate.m in Sources */,
+				55BE132322F7E05D00423EA8 /* JSDMyCenterHeaderView.m in Sources */,
 				60E1A8D222F6D5A500BFFF1B /* JSDBaseNavigationController.m in Sources */,
+				55BE133522F7E85C00423EA8 /* JSDUseRecordView.m in Sources */,
 				60E1A8D822F6D5A500BFFF1B /* UIFont+JSDTool.m in Sources */,
+				55BE132622F7E05D00423EA8 /* JSDSwitch.m in Sources */,
 				60E1A8CF22F6D5A500BFFF1B /* JSDBaseView.m in Sources */,
 				60E1A8D622F6D5A500BFFF1B /* UIView+JSDFrame.m in Sources */,
+				55BE131C22F7E05D00423EA8 /* JSDAboutUSVC.m in Sources */,
+				55BE132522F7E05D00423EA8 /* JSDSettingViewModel.m in Sources */,
+				55BE12F822F7DC0600423EA8 /* JSDFocusSettingVC.m in Sources */,
 				6045C3D122F6E3C3008B38BE /* JSDHomeView.m in Sources */,
 				60E1A8D422F6D5A500BFFF1B /* UIImage+JSDTool.m in Sources */,
+				55BE132D22F7E12000423EA8 /* JSDMyCenterVC.m in Sources */,
 				60E1A8D022F6D5A500BFFF1B /* JSDBaseViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
