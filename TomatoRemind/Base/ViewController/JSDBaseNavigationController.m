@@ -20,7 +20,7 @@
     
     self.navigationBar.titleTextAttributes = @{NSForegroundColorAttributeName: [UIColor jsd_naviTitleColor]
                                                };
-    
+    self.navigationBar.barTintColor = [UIColor jsd_mainGrayColor];
 }
 
 /*

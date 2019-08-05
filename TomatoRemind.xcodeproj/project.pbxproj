@@ -27,6 +27,11 @@
 		55BE133222F7E34400423EA8 /* JSDMyResource.m in Sources */ = {isa = PBXBuildFile; fileRef = 55BE133022F7E34300423EA8 /* JSDMyResource.m */; };
 		55BE133522F7E85C00423EA8 /* JSDUseRecordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 55BE133422F7E85C00423EA8 /* JSDUseRecordView.m */; };
 		55BE133722F7E86500423EA8 /* JSDUseRecordView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55BE133622F7E86500423EA8 /* JSDUseRecordView.xib */; };
+		55BE133922F7FC6400423EA8 /* JSDFocusSettingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55BE133822F7FC6400423EA8 /* JSDFocusSettingView.xib */; };
+		55BE133C22F7FD7F00423EA8 /* right.png in Resources */ = {isa = PBXBuildFile; fileRef = 55BE133B22F7FD7F00423EA8 /* right.png */; };
+		55BE133F22F7FFE800423EA8 /* JSDFocusSettingViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 55BE133E22F7FFE800423EA8 /* JSDFocusSettingViewModel.m */; };
+		55BE134322F801DD00423EA8 /* JSDTableViewTextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 55BE134122F801DD00423EA8 /* JSDTableViewTextCell.m */; };
+		55BE134422F801DD00423EA8 /* JSDTableViewTextCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55BE134222F801DD00423EA8 /* JSDTableViewTextCell.xib */; };
 		6045C3C922F6DF03008B38BE /* JSDHomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6045C3C822F6DF03008B38BE /* JSDHomeVC.m */; };
 		6045C3CC22F6E15B008B38BE /* JSDHomeNaviBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 6045C3CB22F6E15B008B38BE /* JSDHomeNaviBar.m */; };
 		6045C3CE22F6E164008B38BE /* JSDHomeNaviBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6045C3CD22F6E164008B38BE /* JSDHomeNaviBar.xib */; };
@@ -86,6 +91,13 @@
 		55BE133322F7E85C00423EA8 /* JSDUseRecordView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSDUseRecordView.h; sourceTree = "<group>"; };
 		55BE133422F7E85C00423EA8 /* JSDUseRecordView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSDUseRecordView.m; sourceTree = "<group>"; };
 		55BE133622F7E86500423EA8 /* JSDUseRecordView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JSDUseRecordView.xib; sourceTree = "<group>"; };
+		55BE133822F7FC6400423EA8 /* JSDFocusSettingView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JSDFocusSettingView.xib; sourceTree = "<group>"; };
+		55BE133B22F7FD7F00423EA8 /* right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = right.png; sourceTree = "<group>"; };
+		55BE133D22F7FFE800423EA8 /* JSDFocusSettingViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSDFocusSettingViewModel.h; sourceTree = "<group>"; };
+		55BE133E22F7FFE800423EA8 /* JSDFocusSettingViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSDFocusSettingViewModel.m; sourceTree = "<group>"; };
+		55BE134022F801DD00423EA8 /* JSDTableViewTextCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSDTableViewTextCell.h; sourceTree = "<group>"; };
+		55BE134122F801DD00423EA8 /* JSDTableViewTextCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSDTableViewTextCell.m; sourceTree = "<group>"; };
+		55BE134222F801DD00423EA8 /* JSDTableViewTextCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JSDTableViewTextCell.xib; sourceTree = "<group>"; };
 		5F5D7C8F17B227623BE08DB4 /* Pods-TomatoRemind.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TomatoRemind.release.xcconfig"; path = "Target Support Files/Pods-TomatoRemind/Pods-TomatoRemind.release.xcconfig"; sourceTree = "<group>"; };
 		6045C3C722F6DF03008B38BE /* JSDHomeVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSDHomeVC.h; sourceTree = "<group>"; };
 		6045C3C822F6DF03008B38BE /* JSDHomeVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSDHomeVC.m; sourceTree = "<group>"; };
@@ -176,6 +188,9 @@
 		55BE12F022F7DB4100423EA8 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				55BE134022F801DD00423EA8 /* JSDTableViewTextCell.h */,
+				55BE134122F801DD00423EA8 /* JSDTableViewTextCell.m */,
+				55BE134222F801DD00423EA8 /* JSDTableViewTextCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -183,6 +198,8 @@
 		55BE12F122F7DB4700423EA8 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				55BE133D22F7FFE800423EA8 /* JSDFocusSettingViewModel.h */,
+				55BE133E22F7FFE800423EA8 /* JSDFocusSettingViewModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -192,6 +209,7 @@
 			children = (
 				55BE12F622F7DC0600423EA8 /* JSDFocusSettingVC.h */,
 				55BE12F722F7DC0600423EA8 /* JSDFocusSettingVC.m */,
+				55BE133822F7FC6400423EA8 /* JSDFocusSettingView.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -297,6 +315,14 @@
 				55BE132F22F7E34300423EA8 /* JSDMyResource.xib */,
 			);
 			path = ViewController;
+			sourceTree = "<group>";
+		};
+		55BE133A22F7FD7700423EA8 /* ImagrRerouce */ = {
+			isa = PBXGroup;
+			children = (
+				55BE133B22F7FD7F00423EA8 /* right.png */,
+			);
+			path = ImagrRerouce;
 			sourceTree = "<group>";
 		};
 		6045C3BE22F6DEE2008B38BE /* Modules */ = {
@@ -512,6 +538,7 @@
 		60E1A8C822F6D5A500BFFF1B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				55BE133A22F7FD7700423EA8 /* ImagrRerouce */,
 				60E1A8C922F6D5A500BFFF1B /* Assets.xcassets */,
 				60E1A8CA22F6D5A500BFFF1B /* LaunchScreen.storyboard */,
 				60E1A8CC22F6D5A500BFFF1B /* main.m */,
@@ -583,7 +610,10 @@
 				6045C3D322F6E3CB008B38BE /* JSDHomeView.xib in Resources */,
 				55BE132722F7E05D00423EA8 /* JSDSettingCell.xib in Resources */,
 				55BE133722F7E86500423EA8 /* JSDUseRecordView.xib in Resources */,
+				55BE134422F801DD00423EA8 /* JSDTableViewTextCell.xib in Resources */,
+				55BE133922F7FC6400423EA8 /* JSDFocusSettingView.xib in Resources */,
 				55BE133122F7E34400423EA8 /* JSDMyResource.xib in Resources */,
+				55BE133C22F7FD7F00423EA8 /* right.png in Resources */,
 				55BE131E22F7E05D00423EA8 /* JSDFeedBacksVC.xib in Resources */,
 				6045C3CE22F6E164008B38BE /* JSDHomeNaviBar.xib in Resources */,
 				55BE132122F7E05D00423EA8 /* JSDMyCenterHeaderView.xib in Resources */,
@@ -688,6 +718,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55BE133F22F7FFE800423EA8 /* JSDFocusSettingViewModel.m in Sources */,
 				60E1A8DC22F6D5A500BFFF1B /* main.m in Sources */,
 				55BE132922F7E05D00423EA8 /* JSDSettingVC.m in Sources */,
 				55BE132022F7E05D00423EA8 /* JSDMyCenterViewModel.m in Sources */,
@@ -704,6 +735,7 @@
 				60E1A8D722F6D5A500BFFF1B /* UIColor+JSDTool.m in Sources */,
 				55BE131F22F7E05D00423EA8 /* JSDFeedBacksVC.m in Sources */,
 				55BE131D22F7E05D00423EA8 /* JSDAbountViewModel.m in Sources */,
+				55BE134322F801DD00423EA8 /* JSDTableViewTextCell.m in Sources */,
 				60E1A8D322F6D5A500BFFF1B /* AppDelegate.m in Sources */,
 				55BE132322F7E05D00423EA8 /* JSDMyCenterHeaderView.m in Sources */,
 				60E1A8D222F6D5A500BFFF1B /* JSDBaseNavigationController.m in Sources */,

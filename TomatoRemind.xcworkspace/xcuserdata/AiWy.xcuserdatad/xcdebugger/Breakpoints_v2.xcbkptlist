@@ -10,7 +10,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TomatoRemind/Modules/My/ViewController/JSDMyCenterVC.m"
-            timestampString = "586675555.589546"
+            timestampString = "586681990.31499"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "166"
@@ -26,12 +26,44 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TomatoRemind/Modules/My/ViewController/JSDMyCenterVC.m"
-            timestampString = "586675555.58973"
+            timestampString = "586681990.315163"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "159"
             endingLineNumber = "159"
             landmarkName = "-collectionView:didSelectItemAtIndexPath:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TomatoRemind/Modules/FocusSetting/Model/JSDFocusSettingViewModel.m"
+            timestampString = "586681990.315275"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "-listArray"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TomatoRemind/Modules/FocusSetting/Model/JSDFocusSettingViewModel.m"
+            timestampString = "586681990.315376"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
+            landmarkName = "-listArray"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

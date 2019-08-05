@@ -52,9 +52,9 @@
                     <textInputTraits key="textInputTraits"/>
                 </textField>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ybI-C8-KcJ" customClass="MDCButton">
-                    <rect key="frame" x="20" y="341" width="374" height="40"/>
+                    <rect key="frame" x="20" y="341" width="374" height="47"/>
                     <constraints>
-                        <constraint firstAttribute="height" constant="40" id="qZn-oy-gSt"/>
+                        <constraint firstAttribute="height" constant="47" id="qZn-oy-gSt"/>
                     </constraints>
                     <state key="normal" title="保存"/>
                 </button>

@@ -60,13 +60,16 @@
     
     self.nameTitleLabel.textColor = [UIColor jsd_mainBlackColor];
     self.nameTitleLabel.font = [UIFont jsd_fontSize:19];
+    self.nameTitleLabel.text = @"提醒名称";
     
     [self nameTextController];
     
     [self.savaButton setTitleFont:[UIFont jsd_fontSize:20] forState:UIControlStateNormal];
     [self.savaButton setTintColor:[UIColor whiteColor]];
-    [self.savaButton setBackgroundColor:[UIColor jsd_mainBlueColor]];
+    [self.savaButton setBackgroundColor:[UIColor jsd_mainGreenColor]];
     [self.savaButton addTarget:self action:@selector(onTouchSave:) forControlEvents:UIControlEventTouchUpInside];
+    self.savaButton.layer.cornerRadius = 23;
+    self.savaButton.layer.masksToBounds = YES;
     
     self.imageView.layer.cornerRadius = 35;
     self.imageView.layer.masksToBounds = YES;
@@ -156,7 +159,9 @@
         _nameTextController.normalColor = ColorWithFROMRGB(0xdddddd, 1);
         _nameTextController.activeColor = [UIColor blueColor];
         _nameTextController.borderFillColor = [UIColor whiteColor];
-        _nameTextController.placeholderText = @"请输入新的昵称";
+        _nameTextController.placeholderText = @"输入提醒名称";
+        _nameTextController.textInput.font = [UIFont jsd_fontSize:19];
+        _nameTextController.roundedCorners = 10;
     }
     return _nameTextController;
 }
