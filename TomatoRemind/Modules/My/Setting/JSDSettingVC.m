@@ -55,7 +55,7 @@ static NSString * const reuseIdentifier = @"Cell";
 
 - (void)setupView {
     
-    self.view.backgroundColor = [UIColor jsd_grayColor];
+    self.view.backgroundColor = [UIColor JSD_grayColor];
     
     // Register cell.
     [self.collectionView registerClass:[JSDSettingCell class]
@@ -121,7 +121,7 @@ static NSString * const reuseIdentifier = @"Cell";
         } else {
             supplementaryView.textLabel.text = @"账户";
         }
-        supplementaryView.textLabel.textColor = [UIColor jsd_mainBlueColor];
+        supplementaryView.textLabel.textColor = [UIColor JSD_mainBlueColor];
     }
     return supplementaryView;
 }

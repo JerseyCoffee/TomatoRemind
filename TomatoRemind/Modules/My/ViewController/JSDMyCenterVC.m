@@ -79,7 +79,7 @@ static NSString * const reuseIdentifier = @"Cell";
     
     [self.collectionView registerNib:[UINib nibWithNibName:@"JSDCollectionViewCell" bundle:[NSBundle mainBundle]] forCellWithReuseIdentifier:reuseIdentifier];
     
-    self.collectionView.backgroundColor = [UIColor jsd_mainGrayColor];
+    self.collectionView.backgroundColor = [UIColor JSD_mainGrayColor];
     
     [self.view addSubview:self.headerView];
     
@@ -138,8 +138,8 @@ static NSString * const reuseIdentifier = @"Cell";
     
     JSDMyCenterModel* model = self.viewModel.listArray[indexPath.item];
     cell.model = model;
-    cell.textLabel.font = [UIFont jsd_fontSize:18];
-    cell.accessoryView.tintColor = [UIColor jsd_mainBlackColor];
+    cell.textLabel.font = [UIFont JSD_fontSize:18];
+    cell.accessoryView.tintColor = [UIColor JSD_mainBlackColor];
     
     return cell;
 }

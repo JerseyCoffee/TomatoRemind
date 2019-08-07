@@ -10,9 +10,9 @@
 
 @implementation UIButton (JSDTool)
 
-- (void)jsd_setBackgroundColor:(UIColor *)backgroundColor forState:(UIControlState)state {
+- (void)JSD_setBackgroundColor:(UIColor *)backgroundColor forState:(UIControlState)state {
     
-    [self setBackgroundImage: [UIImage jsd_getImageWithColor:backgroundColor withSize:self.frame.size] forState:state];
+    [self setBackgroundImage: [UIImage JSD_getImageWithColor:backgroundColor withSize:self.frame.size] forState:state];
 }
 
 @end

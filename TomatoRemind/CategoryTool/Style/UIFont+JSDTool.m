@@ -12,7 +12,7 @@ static NSString* const kJSDFontName = @"Helvetica Neue";
 
 @implementation UIFont (JSDTool)
 
-+ (UIFont *)jsd_fontSize:(CGFloat)size {
++ (UIFont *)JSD_fontSize:(CGFloat)size {
     
     UIFont* font = [UIFont fontWithName:kJSDFontName size:size];
     

@@ -18,9 +18,9 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    self.navigationBar.titleTextAttributes = @{NSForegroundColorAttributeName: [UIColor jsd_naviTitleColor]
+    self.navigationBar.titleTextAttributes = @{NSForegroundColorAttributeName: [UIColor JSD_naviTitleColor]
                                                };
-    self.navigationBar.barTintColor = [UIColor jsd_mainGrayColor];
+    self.navigationBar.barTintColor = [UIColor JSD_mainGrayColor];
 }
 
 /*

@@ -81,7 +81,7 @@ NSString* const kJSDKitImageFiles = @"PhotoImage/kit_";
         controller.delegate = self;
         controller.allowsEditing = YES;
         // 修改导航栏字体颜色.
-        [controller.navigationBar setTintColor:[UIColor jsd_mainGrayColor]];
+        [controller.navigationBar setTintColor:[UIColor JSD_mainGrayColor]];
         [viewController presentViewController:controller animated:YES completion:nil];
     } else {
         
@@ -90,7 +90,7 @@ NSString* const kJSDKitImageFiles = @"PhotoImage/kit_";
             controller.delegate = self;
             controller.allowsEditing = YES;
             // 修改导航栏字体颜色.
-            [controller.navigationBar setTintColor:[UIColor jsd_mainGrayColor]];
+            [controller.navigationBar setTintColor:[UIColor JSD_mainGrayColor]];
             [viewController presentViewController:controller animated:YES completion:nil];
         } else {
             UIAlertController* alertVC = [UIAlertController alertControllerWithTitle:@"温馨提示" message:@"请点击前往设置开启应用相册读取权限, 否则无法正常选取相片" preferredStyle:UIAlertControllerStyleAlert];

@@ -12,7 +12,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface UIFont (JSDTool)
 
-+ (UIFont* )jsd_fontSize:(CGFloat )size;
++ (UIFont* )JSD_fontSize:(CGFloat )size;
 
 @end
 

@@ -18,7 +18,7 @@ NS_ASSUME_NONNULL_BEGIN
 *  @param backgroundColor 背景颜色
 *  @param state           状态
 */
-- (void)jsd_setBackgroundColor:(UIColor *)backgroundColor forState:(UIControlState)state;
+- (void)JSD_setBackgroundColor:(UIColor *)backgroundColor forState:(UIControlState)state;
 
 @end
 

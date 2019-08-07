@@ -55,10 +55,10 @@ static NSString * const reuseIdentifier = @"Cell";
 
 - (void)setupView {
     
-    self.view.backgroundColor = [UIColor jsd_mainGrayColor];
+    self.view.backgroundColor = [UIColor JSD_mainGrayColor];
     
     self.styler.cellStyle = MDCCollectionViewCellStyleCard;
-    self.collectionView.backgroundColor = [UIColor jsd_mainGrayColor];
+    self.collectionView.backgroundColor = [UIColor JSD_mainGrayColor];
     [self.collectionView registerClass:[MDCCollectionViewTextCell class] forCellWithReuseIdentifier:reuseIdentifier];
 }
 

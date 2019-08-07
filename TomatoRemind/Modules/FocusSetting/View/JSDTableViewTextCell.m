@@ -25,19 +25,19 @@
     [super awakeFromNib];
     // Initialization code
     
-    self.titleLabel.font = [UIFont jsd_fontSize:18];
-    self.titleLabel.textColor = [UIColor jsd_mainTextColor];
+    self.titleLabel.font = [UIFont JSD_fontSize:18];
+    self.titleLabel.textColor = [UIColor JSD_mainTextColor];
     
-    self.subTitleLabel.font = [UIFont jsd_fontSize:15];
-    self.subTitleLabel.textColor = [UIColor jsd_subTitleColor];
+    self.subTitleLabel.font = [UIFont JSD_fontSize:15];
+    self.subTitleLabel.textColor = [UIColor JSD_subTitleColor];
     
-    self.bottomSubTitleLabel.font = [UIFont jsd_fontSize:12];
-    self.bottomSubTitleLabel.textColor = [UIColor jsd_subTitleColor];
+    self.bottomSubTitleLabel.font = [UIFont JSD_fontSize:12];
+    self.bottomSubTitleLabel.textColor = [UIColor JSD_subTitleColor];
     
     self.routeImageView.image = [UIImage imageNamed:@"right"];
-    self.routeImageView.tintColor = [UIColor jsd_subTitleColor];
+    self.routeImageView.tintColor = [UIColor JSD_subTitleColor];
     
-    self.backgroundColor = [UIColor jsd_mainGrayColor];
+    self.backgroundColor = [UIColor JSD_mainGrayColor];
 
 }
 

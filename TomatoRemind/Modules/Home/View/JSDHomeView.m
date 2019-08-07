@@ -33,18 +33,18 @@
     
     [self setupView];
     
-    self.backgroundColor = [UIColor jsd_mainGrayColor];
+    self.backgroundColor = [UIColor JSD_mainGrayColor];
 }
 
 - (void)setupView {
     
-    self.imageContentView.backgroundColor = [UIColor jsd_mainGrayColor];
+    self.imageContentView.backgroundColor = [UIColor JSD_mainGrayColor];
     
     self.backgroundImageView.image = [UIImage imageNamed:@"home_background"];
     
     self.centerContentView.backgroundColor = [UIColor clearColor];
-    self.centerImageViewHeight.constant = self.centerContentView.jsd_width;
-    self.centerImageView.layer.cornerRadius = self.centerImageView.jsd_width / 2;
+    self.centerImageViewHeight.constant = self.centerContentView.JSD_width;
+    self.centerImageView.layer.cornerRadius = self.centerImageView.JSD_width / 2;
     self.centerImageView.layer.masksToBounds = YES;
     self.centerImageView.image = [UIImage imageNamed:@"home_imageView"];
     

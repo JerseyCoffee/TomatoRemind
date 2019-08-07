@@ -12,29 +12,29 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface UIColor (JSDTool)
 
-+ (UIColor *)jsd_colorWithHexString:(NSString *)color; //颜色字符串转换为颜色
++ (UIColor *)JSD_colorWithHexString:(NSString *)color; //颜色字符串转换为颜色
 
-+ (UIColor *)jsd_grayColor;
-+ (UIColor *)jsd_tealcolor;
-+ (UIColor *)jsd_skyBluecolor;
-+ (UIColor *)jsd_mainBlueColor;
-+ (UIColor *)jsd_mainGreenColor;
++ (UIColor *)JSD_grayColor;
++ (UIColor *)JSD_tealcolor;
++ (UIColor *)JSD_skyBluecolor;
++ (UIColor *)JSD_mainBlueColor;
++ (UIColor *)JSD_mainGreenColor;
 
 #pragma mark -Text Color
 
-+ (UIColor *)jsd_mainTextColor;
-+ (UIColor *)jsd_minorTextColor;
-+ (UIColor *)jsd_detailTextColor;
-+ (UIColor *)jsd_naviTitleColor; //导航栏标题颜色
++ (UIColor *)JSD_mainTextColor;
++ (UIColor *)JSD_minorTextColor;
++ (UIColor *)JSD_detailTextColor;
++ (UIColor *)JSD_naviTitleColor; //导航栏标题颜色
 
 #pragma mark - Title Color
 
-+ (UIColor *)jsd_mainBlackColor;
-+ (UIColor *)jsd_subTitleColor;
++ (UIColor *)JSD_mainBlackColor;
++ (UIColor *)JSD_subTitleColor;
 
-+ (UIColor *)jsd_mainGrayColor;
++ (UIColor *)JSD_mainGrayColor;
 
-+ (CAGradientLayer *)jsd_setGradualChangeView:(UIView *)view fromColor:(NSString *)fromHexColorStr toColor:(NSString *)toHexColorStr;
++ (CAGradientLayer *)JSD_setGradualChangeView:(UIView *)view fromColor:(NSString *)fromHexColorStr toColor:(NSString *)toHexColorStr;
 
 @end
 

@@ -10,7 +10,7 @@
 
 @implementation UIImage (JSDTool)
 
-+ (instancetype)jsd_imageNamePNG:(NSString *)namePNG {
++ (instancetype)JSD_imageNamePNG:(NSString *)namePNG {
     
     NSString* path = [[NSBundle mainBundle] pathForResource:namePNG ofType:@"png"];
     UIImage* image = [UIImage imageWithContentsOfFile:path];
@@ -18,14 +18,14 @@
     return image;
 }
 
-+ (UIImage *)jsd_getImageWithColor:(UIColor *)color{
++ (UIImage *)JSD_getImageWithColor:(UIColor *)color{
     
     CGSize size = CGSizeMake(1.0f, 1.0f);
-    return [self jsd_getImageWithColor:color withSize:size];
+    return [self JSD_getImageWithColor:color withSize:size];
     
 }
 
-+ (UIImage *)jsd_getImageWithColor:(UIColor *)color withSize:(CGSize)size{
++ (UIImage *)JSD_getImageWithColor:(UIColor *)color withSize:(CGSize)size{
     
     if (size.width == 0 || size.height == 0) {
         CGSize defaultSize = CGSizeMake(100, 100);

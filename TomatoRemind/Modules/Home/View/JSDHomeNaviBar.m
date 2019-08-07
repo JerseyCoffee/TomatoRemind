@@ -25,10 +25,10 @@
     
     [super awakeFromNib];
     
-    self.backgroundColor = [UIColor jsd_mainGrayColor];
+    self.backgroundColor = [UIColor JSD_mainGrayColor];
     
-    self.titleLabel.font = [UIFont jsd_fontSize:18];
-    self.titleLabel.textColor = [UIColor jsd_colorWithHexString:@"#576378"];
+    self.titleLabel.font = [UIFont JSD_fontSize:18];
+    self.titleLabel.textColor = [UIColor JSD_colorWithHexString:@"#576378"];
     self.titleLabel.text = @"番茄钟";
     
     UIImage* image = [UIImage imageNamed:@"home_setting"];

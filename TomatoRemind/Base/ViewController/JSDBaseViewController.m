@@ -32,7 +32,7 @@
                                                                   action:@selector(didTapBack:)];
     UIImage *backImage = [UIImage imageNamed:@"back"];
     backButton.image = backImage;
-    backButton.tintColor = [UIColor jsd_colorWithHexString:@"#333333"];
+    backButton.tintColor = [UIColor JSD_colorWithHexString:@"#333333"];
     self.navigationItem.leftBarButtonItem = backButton;
 }
 

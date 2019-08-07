@@ -49,7 +49,7 @@
 
 - (void)setupView {
     
-    self.view.backgroundColor = [UIColor jsd_mainGrayColor];
+    self.view.backgroundColor = [UIColor JSD_mainGrayColor];
     
     [self.view addSubview:self.headerBar];
     [self.headerBar mas_makeConstraints:^(MASConstraintMaker *make) {

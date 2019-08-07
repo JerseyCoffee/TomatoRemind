@@ -53,20 +53,20 @@
 
 - (void)setupView {
     
-    self.view.backgroundColor = [UIColor jsd_mainGrayColor];
+    self.view.backgroundColor = [UIColor JSD_mainGrayColor];
     
-    self.imageTitleLabel.textColor = [UIColor jsd_subTitleColor];
-    self.imageTitleLabel.font = [UIFont jsd_fontSize:16];
+    self.imageTitleLabel.textColor = [UIColor JSD_subTitleColor];
+    self.imageTitleLabel.font = [UIFont JSD_fontSize:16];
     
-    self.nameTitleLabel.textColor = [UIColor jsd_mainBlackColor];
-    self.nameTitleLabel.font = [UIFont jsd_fontSize:19];
+    self.nameTitleLabel.textColor = [UIColor JSD_mainBlackColor];
+    self.nameTitleLabel.font = [UIFont JSD_fontSize:19];
     self.nameTitleLabel.text = @"提醒名称";
     
     [self nameTextController];
     
-    [self.savaButton setTitleFont:[UIFont jsd_fontSize:20] forState:UIControlStateNormal];
+    [self.savaButton setTitleFont:[UIFont JSD_fontSize:20] forState:UIControlStateNormal];
     [self.savaButton setTintColor:[UIColor whiteColor]];
-    [self.savaButton setBackgroundColor:[UIColor jsd_mainGreenColor]];
+    [self.savaButton setBackgroundColor:[UIColor JSD_mainGreenColor]];
     [self.savaButton addTarget:self action:@selector(onTouchSave:) forControlEvents:UIControlEventTouchUpInside];
     self.savaButton.layer.cornerRadius = 23;
     self.savaButton.layer.masksToBounds = YES;
@@ -160,7 +160,7 @@
         _nameTextController.activeColor = [UIColor blueColor];
         _nameTextController.borderFillColor = [UIColor whiteColor];
         _nameTextController.placeholderText = @"输入提醒名称";
-        _nameTextController.textInput.font = [UIFont jsd_fontSize:19];
+        _nameTextController.textInput.font = [UIFont JSD_fontSize:19];
         _nameTextController.roundedCorners = 10;
     }
     return _nameTextController;

@@ -30,7 +30,7 @@
     
     [super awakeFromNib];
     
-    self.backgroundColor = [UIColor jsd_mainGrayColor];
+    self.backgroundColor = [UIColor JSD_mainGrayColor];
     
     _useTimeContentView.backgroundColor = [UIColor colorWithRed:255/255.0 green:255/255.0 blue:255/255.0 alpha:1.0];
     _useTimeContentView.layer.shadowColor = [UIColor colorWithRed:165/255.0 green:177/255.0 blue:201/255.0 alpha:0.3].CGColor;
@@ -39,14 +39,14 @@
     _useTimeContentView.layer.shadowRadius = 6;
     _useTimeContentView.layer.cornerRadius = 10;
     
-    _useTimeNumberLabel.font = [UIFont jsd_fontSize:21];
-    _useTimeNumberLabel.textColor = [UIColor jsd_mainTextColor];
+    _useTimeNumberLabel.font = [UIFont JSD_fontSize:21];
+    _useTimeNumberLabel.textColor = [UIColor JSD_mainTextColor];
     
-    _useTimeTitleLabel.font = [UIFont jsd_fontSize:14];
-    _useTimeTitleLabel.textColor = [UIColor jsd_mainTextColor];
+    _useTimeTitleLabel.font = [UIFont JSD_fontSize:14];
+    _useTimeTitleLabel.textColor = [UIColor JSD_mainTextColor];
     
-    _timeTitleLabel.font = [UIFont jsd_fontSize:12];
-    _timeTitleLabel.textColor = [UIColor jsd_subTitleColor];
+    _timeTitleLabel.font = [UIFont JSD_fontSize:12];
+    _timeTitleLabel.textColor = [UIColor JSD_subTitleColor];
     
     
     _useDayContentView.backgroundColor = [UIColor colorWithRed:255/255.0 green:255/255.0 blue:255/255.0 alpha:1.0];
@@ -56,14 +56,14 @@
     _useDayContentView.layer.shadowRadius = 6;
     _useDayContentView.layer.cornerRadius = 10;
     
-    _useDayNumberLabel.font = [UIFont jsd_fontSize:21];
-    _useDayNumberLabel.textColor = [UIColor jsd_mainTextColor];
+    _useDayNumberLabel.font = [UIFont JSD_fontSize:21];
+    _useDayNumberLabel.textColor = [UIColor JSD_mainTextColor];
     
-    _useDaysTitleLabel.font = [UIFont jsd_fontSize:14];
-    _useDaysTitleLabel.textColor = [UIColor jsd_mainTextColor];
+    _useDaysTitleLabel.font = [UIFont JSD_fontSize:14];
+    _useDaysTitleLabel.textColor = [UIColor JSD_mainTextColor];
     
-    _useDayTitleLabel.font = [UIFont jsd_fontSize:12];
-    _useDayTitleLabel.textColor = [UIColor jsd_subTitleColor];
+    _useDayTitleLabel.font = [UIFont JSD_fontSize:12];
+    _useDayTitleLabel.textColor = [UIColor JSD_subTitleColor];
     
     
     

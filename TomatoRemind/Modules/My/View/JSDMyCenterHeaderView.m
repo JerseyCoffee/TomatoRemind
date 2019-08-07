@@ -23,15 +23,15 @@
     
     [super awakeFromNib];
     
-    self.backgroundColor = [UIColor jsd_mainGrayColor];
+    self.backgroundColor = [UIColor JSD_mainGrayColor];
     
-//    self.headImageView.backgroundColor = [UIColor jsd_mainBlueColor];
+//    self.headImageView.backgroundColor = [UIColor JSD_mainBlueColor];
     self.headImageView.layer.cornerRadius = 35;
     self.headImageView.layer.masksToBounds = YES;
     self.headImageView.image = [UIImage imageNamed:@"user_icon"];
     
-    self.nameLabel.font = [UIFont jsd_fontSize:21];
-    self.nameLabel.textColor = [UIColor jsd_mainBlackColor];
+    self.nameLabel.font = [UIFont JSD_fontSize:21];
+    self.nameLabel.textColor = [UIColor JSD_mainBlackColor];
     self.nameLabel.text = @"Jersey Bro";
     
     

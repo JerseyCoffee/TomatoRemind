@@ -56,7 +56,7 @@
 
 - (void)setupView {
     
-    self.view.backgroundColor = [UIColor jsd_mainGrayColor];
+    self.view.backgroundColor = [UIColor JSD_mainGrayColor];
     
     [self.view addSubview:self.tableView];
     
@@ -141,8 +141,8 @@
         make.left.mas_equalTo(16);
         make.centerY.mas_equalTo(0);
     }];
-    titleLabel.font = [UIFont jsd_fontSize:16];
-    titleLabel.textColor = [UIColor jsd_subTitleColor];
+    titleLabel.font = [UIFont JSD_fontSize:16];
+    titleLabel.textColor = [UIColor JSD_subTitleColor];
     
     return headerView;
     
@@ -171,7 +171,7 @@
     if (!_tableView) {
         _tableView = [[UITableView alloc] initWithFrame:self.view.bounds style:UITableViewStyleGrouped];
 //        [_tableView registerNib:[UINib nibWithNibName:@"" bundle:nil forCellReuseIdentifier: kItemCellIdentifier];
-         _tableView.backgroundColor = [UIColor jsd_mainGrayColor];
+         _tableView.backgroundColor = [UIColor JSD_mainGrayColor];
          _tableView.delegate = self;
          _tableView.dataSource = self;
          _tableView.tableFooterView = [[UIView alloc] init];

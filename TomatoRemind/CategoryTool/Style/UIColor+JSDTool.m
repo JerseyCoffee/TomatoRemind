@@ -10,72 +10,72 @@
 
 @implementation UIColor (JSDTool)
 
-+ (UIColor *)jsd_mainGrayColor {
++ (UIColor *)JSD_mainGrayColor {
     
-    return [UIColor jsd_colorWithHexString:@"#f5f6f6"];
+    return [UIColor JSD_colorWithHexString:@"#f5f6f6"];
 }
 
-+ (UIColor *)jsd_grayColor {
++ (UIColor *)JSD_grayColor {
     
     return [UIColor colorWithRed:0.93 green:0.93 blue:0.93 alpha:1];
 }
 
-+ (UIColor *)jsd_tealcolor {
++ (UIColor *)JSD_tealcolor {
     
-    return [UIColor jsd_colorWithHexString:@"#1AAA8C"];
+    return [UIColor JSD_colorWithHexString:@"#1AAA8C"];
 }
 
-+ (UIColor *)jsd_skyBluecolor {
++ (UIColor *)JSD_skyBluecolor {
     
-    return [UIColor jsd_colorWithHexString:@"#1296db"];
+    return [UIColor JSD_colorWithHexString:@"#1296db"];
 }
 
-+ (UIColor *)jsd_mainBlueColor {
++ (UIColor *)JSD_mainBlueColor {
     
-    return [UIColor jsd_colorWithHexString:@"#2EA2F5"];
+    return [UIColor JSD_colorWithHexString:@"#2EA2F5"];
 }
 
-+ (UIColor *)jsd_mainGreenColor {
++ (UIColor *)JSD_mainGreenColor {
     
-    return [UIColor jsd_colorWithHexString:@"#51B396"];
+    return [UIColor JSD_colorWithHexString:@"#51B396"];
 }
 
 #pragma mark -- Text Color
 
-+ (UIColor *)jsd_mainTextColor {
++ (UIColor *)JSD_mainTextColor {
     
     return [UIColor colorWithRed:30/255.0 green:23/255.0 blue:13/255.0 alpha:1.0];
 }
 
-+ (UIColor *)jsd_minorTextColor {
++ (UIColor *)JSD_minorTextColor {
     
     return [UIColor colorWithRed:113/255.0 green:120/255.0 blue:130/255.0 alpha:1.0];
 }
 
-+ (UIColor *)jsd_detailTextColor {
++ (UIColor *)JSD_detailTextColor {
     
     return [UIColor colorWithRed:113/255.0 green:120/255.0 blue:130/255.0 alpha:1.0];
 }
 
-+ (UIColor *)jsd_naviTitleColor {
++ (UIColor *)JSD_naviTitleColor {
     
-    return [UIColor jsd_colorWithHexString:@"#576378"];
+    return [UIColor JSD_colorWithHexString:@"#576378"];
 }
 
 #pragma mark - Title Color
 
-+ (UIColor *)jsd_mainBlackColor {
++ (UIColor *)JSD_mainBlackColor {
     
-    return [UIColor jsd_colorWithHexString:@"#333333"];
+    return [UIColor JSD_colorWithHexString:@"#333333"];
 }
 
-+ (UIColor *)jsd_subTitleColor {
++ (UIColor *)JSD_subTitleColor {
     
-    return [UIColor jsd_colorWithHexString:@"#999999"];
+    return [UIColor JSD_colorWithHexString:@"#999999"];
 }
 
 //绘制渐变色颜色的方法
-+ (CAGradientLayer *)jsd_setGradualChangeView:(UIView *)view fromColor:(NSString *)fromHexColorStr toColor:(NSString *)toHexColorStr{
++ (CAGradientLayer *)JSD_setGradualChangeView:(UIView *)view fromColor:(NSString *)fromHexColorStr toColor:(NSString *)toHexColorStr{
     
     // CAGradientLayer类对其绘制渐变背景颜色、填充层的形状(包括圆角)
     CAGradientLayer *gradientLayer = [CAGradientLayer layer];
@@ -106,7 +106,7 @@
     return gradientLayer;
 }
 
-+ (UIColor *)jsd_colorWithHexString:(NSString *)color {
++ (UIColor *)JSD_colorWithHexString:(NSString *)color {
     
     //需要先判断color是否为空或null
     if (color == nil || color == NULL) {

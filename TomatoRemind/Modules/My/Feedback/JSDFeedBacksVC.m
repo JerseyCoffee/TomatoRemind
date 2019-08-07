@@ -59,7 +59,7 @@ static NSString* const kFeedBackErrorTipSubTitle = @"请打开\"(邮件App)\"设
 
 - (void)setupView {
     
-    self.view.backgroundColor = [UIColor jsd_grayColor];
+    self.view.backgroundColor = [UIColor JSD_grayColor];
     
     [self.view addSubview:self.tipLabel];
     [self.tipLabel mas_makeConstraints:^(MASConstraintMaker *make) {
